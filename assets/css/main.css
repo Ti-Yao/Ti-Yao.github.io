@@ -8,7 +8,10 @@ a{text-decoration:none;
 color:#979c68}
 h1,h2,h3,b{text-decoration:none;
 color:#496300}
-
+#hp  {
+float: right;
+ margin: 40px 0 0 15px;
+}
 a:focus,a:hover{text-decoration:underline}
 
 .Menu_Menu__2hQiY{position:fixed;
