@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 body,html{padding:0;
 margin:0;}
-*{font-family: Impact, sans-serif;
+div{
+  box-sizing: border-box;
+  clear: both;}
+
+*{font-family:Muli, sans-serif;
 -webkit-box-sizing:border-box;
 -moz-box-sizing:border-box;
 box-sizing:border-box}
@@ -10,8 +15,8 @@ h1,h2,h3,b{text-decoration:none;
 color:#496300}
 #hp  {
 float: right;
- margin: 40px 0 0 15px;
 }
+
 a:focus,a:hover{text-decoration:underline}
 
 .Menu_Menu__2hQiY{position:fixed;
