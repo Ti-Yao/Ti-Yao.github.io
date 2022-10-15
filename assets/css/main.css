@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Fira+Sans+Condensed&family=Oswald&family=Roboto+Condensed&family=Saira+Semi+Condensed&family=Work+Sans&display=swap');
 body,html{padding:0;
 margin:0;}
 div{
   box-sizing: border-box;
   clear: both;}
+
+h1, h2,.Menu_Menu__link__1oYoA,.Menu_Menu__title__1nVBP{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+  font-size: 42px;
+}
+
+h2,.Menu_Menu__title__1nVBP{
+  font-size: 28px;
+}
+
 
 *{font-family:Muli, sans-serif;
 -webkit-box-sizing:border-box;
@@ -67,10 +81,14 @@ background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,rgba(
 background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,.3),rgba(0,0,0,.15) 70%,transparent);
 background-image:linear-gradient(0deg,rgba(0,0,0,.3) 0,rgba(0,0,0,.15) 70%,transparent)}@media(max-width:767px){.Menu_Menu__body__wQSJg{-webkit-align-items:center;
 -moz-box-align:center;
-align-items:center}}.Menu_Menu__link__1oYoA{margin:0 .5rem;
+align-items:center}}
+
+.Menu_Menu__link__1oYoA{margin:0 .5rem;
 -webkit-flex:auto;
 -moz-box-flex:1;
+font-size:1.25rem;
 flex:auto;
+
 color:#fff}
 
 .Menu_Menu__link__1oYoA:active,.Menu_Menu__link__1oYoA:hover{color:wheat}
@@ -88,7 +106,7 @@ line-height:1.5}
 
 @media(max-width:767px){.Menu_Menu__subtitle__1eHK1,.Menu_Menu__title__1nVBP{text-align:center}}
 
-.Menu_Menu__title__1nVBP{font-size:2rem}.Menu_Menu__subtitle__1eHK1{font-size:1rem}.Menu_Menu__links__PxIxu{display:-webkit-flex;
+.Menu_Menu__title__1nVBP{font-size:2rem}.Menu_Menu__subtitle__1eHK1{font-size:1.5rem}.Menu_Menu__links__PxIxu{display:-webkit-flex;
 display:-moz-box;
 display:flex;
 -webkit-flex-wrap:wrap;
