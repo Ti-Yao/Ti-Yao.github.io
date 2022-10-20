@@ -18,15 +18,16 @@ h2,.Menu_Menu__title__1nVBP{
   font-size: 28px;
 }
 
+a{text-decoration:none;
+  color:#979c68;}
+h1,h2,h3,b{text-decoration:none;
+color:#496300;}
 
 *{font-family:Muli, sans-serif;
 -webkit-box-sizing:border-box;
 -moz-box-sizing:border-box;
 box-sizing:border-box}
-a{text-decoration:none;
-color:#979c68}
-h1,h2,h3,b{text-decoration:none;
-color:#496300}
+
 #hp  {
 float: right;
 }
